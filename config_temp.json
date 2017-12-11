@@ -196,7 +196,7 @@
           "label": "Prize 1-1",
           "type": "radio",
           "name": "prize",
-          "id": "prize_11",
+          "id": "prize",
           "values": "prize_11",
           "clickfn": ""
         },
@@ -204,7 +204,7 @@
           "label": "Prize 1-2",
           "type": "radio",
           "name": "prize",
-          "id": "prize_12",
+          "id": "prize",
           "values": "prize_12",
           "clickfn": ""
         },
@@ -212,7 +212,7 @@
           "label": "Prize 1-3",
           "type": "radio",
           "name": "prize",
-          "id": "prize_13",
+          "id": "prize",
           "values": "prize_13",
           "clickfn": ""
         }
@@ -225,7 +225,7 @@
           "label": "Prize 2-1",
           "type": "radio",
           "name": "prize",
-          "id": "prize_21",
+          "id": "prize",
           "values": "prize_21",
           "clickfn": ""
         },
@@ -233,7 +233,7 @@
           "label": "Prize 2-2",
           "type": "radio",
           "name": "prize",
-          "id": "prize_22",
+          "id": "prize",
           "values": "prize_22",
           "clickfn": ""
         },
@@ -241,7 +241,7 @@
           "label": "Prize 2-3",
           "type": "radio",
           "name": "prize",
-          "id": "prize_23",
+          "id": "prize",
           "values": "prize_23",
           "clickfn": ""
         }

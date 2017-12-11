@@ -62,6 +62,7 @@ function addField(process_num, f, field, default_values) {
             i = document.createElement("UL");
             i.name = field.name;
             i.id = field.id;
+            i.className = "guest-list";
             var list_elements = field.values;
             var node, textnode;
             for(var sub_index=0;sub_index<list_elements.length;sub_index++) {
@@ -194,6 +195,7 @@ function instantWin(process_num) {
 function mailDispatch(process_num, default_values) {
     var guest_name = document.getElementById('guest_name').value;
     var email = document.getElementById('email').value;
+    var prize_preff = document.getElementById('prize').value;
     if(default_values['condition']) {
         window.AkkrooAPI.generateVoucherCode(guest_name, function(code) {
 			console.log('Example voucher code: ', code);
@@ -203,7 +205,7 @@ function mailDispatch(process_num, default_values) {
                         });
 		});
     }
-    var save_data = {"Guest Name":guest_name, "Email":email};
+    var save_data = {"Guest Name":guest_name, "Email":email, "Prize preferrence":prize_preff};
     save(save_data);
     createNextForm(process_num, default_values);
 }
