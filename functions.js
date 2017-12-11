@@ -182,7 +182,7 @@ function submitForm(process_num) {
 //randomly decides whether or not the user is a winner
 function instantWin(process_num) {
     var guest_name = document.getElementById('guest_name').value;
-    rand_num = 2;//Math.floor((Math.random() * 10) + 1);
+    rand_num = Math.floor((Math.random() * 10) + 1);
     var winner;
     if(rand_num%2 == 0) {
         winner = true;
