@@ -1,0 +1,82 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 1em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+h3, h4 {
+  margin-bottom: 1em;
+}
+
+section {
+  max-width: 50em;
+}
+
+#task {
+  margin-top: 1em;
+}
+
+#task .view-example {
+  margin-bottom: 3em;
+}
+
+#task #container_div {
+  padding: 1em;
+  border: 1px solid #999;
+  max-width: 25em;
+}
+#task .guest-list {
+  background-color: #eee;
+}
+#task .guest-list li {
+  list-style-type: none;
+  border-bottom: 1px solid #ddd;
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+}
+#task .guest-list li:hover {
+  background-color: #ddd;
+  color: #3366FF;
+  cursor: pointer;
+}
+#task .guest-list li:first-child {
+  border-top: 1px solid #ddd;
+}
+
+#task fieldset {
+  border: none;
+  margin-bottom: 1em;
+}
+#task fieldset label,
+#task fieldset input {
+  display: block;
+  margin-bottom: 0.4em;
+}
+
+#task button,
+#task fieldset input[type="text"],
+#task fieldset input[type="email"] {
+  font-size: 100%;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+#task fieldset input[type="text"],
+#task fieldset input[type="email"] {
+  padding: 0.4em 0.6em;
+}
+#task button {
+  border: none;
+  padding: 0.4em 0.8em;
+  background-color: #009933;
+  color: #fff;
+}
+#task button:hover {
+  cursor: pointer;
+  background-color: #007A29;
+}
